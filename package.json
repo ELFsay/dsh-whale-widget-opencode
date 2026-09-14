@@ -1,7 +1,7 @@
 {
   "name": "dsh-whale-widget-opencode",
   "version": "0.1.0",
-  "description": "DSH 小鲸鱼挂件 + OpenCode Go 套餐用量（基于 dsh-whale-widget，增加 OpenCode Go 三档用量显示）",
+  "description": "DSH 小鲸鱼挂件 + OpenCode Go 套餐用量（基于 MeteorNOX/DeepSeek-Balance-Whale-Widget 二次开发，增加 OpenCode Go 三档用量显示）",
   "keywords": [
     "dsh",
     "dsh-plugin",
