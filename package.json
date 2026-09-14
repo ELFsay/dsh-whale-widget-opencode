@@ -1,0 +1,35 @@
+{
+  "name": "dsh-whale-widget-opencode",
+  "version": "0.1.0",
+  "description": "DSH 小鲸鱼挂件 + OpenCode Go 套餐用量（基于 dsh-whale-widget，增加 OpenCode Go 三档用量显示）",
+  "keywords": [
+    "dsh",
+    "dsh-plugin",
+    "deepseek-harness",
+    "balance",
+    "widget",
+    "opencode-go"
+  ],
+  "type": "module",
+  "main": "lib/index.js",
+  "files": [
+    "lib",
+    "assets",
+    "cordis.patch.yml",
+    "README.md"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ELFsay/dsh-whale-widget-opencode.git"
+  },
+  "bugs": {
+    "url": "https://github.com/ELFsay/dsh-whale-widget-opencode/issues"
+  },
+  "homepage": "https://github.com/ELFsay/dsh-whale-widget-opencode#readme",
+  "dsh": {
+    "bundle": {
+      "patch": "./cordis.patch.yml"
+    }
+  },
+  "license": "MIT"
+}

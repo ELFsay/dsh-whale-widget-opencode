@@ -1,0 +1,9 @@
+# ============================================================================
+# dsh-whale-widget-opencode —— DSH bundle patch (OpenCode Go edition)
+# ============================================================================
+# 基于 dsh-whale-widget，增加 OpenCode Go 套餐用量显示。
+# ============================================================================
+
+- insert:
+    - id: dsh-whale-widget-opencode
+      name: dsh-whale-widget-opencode
