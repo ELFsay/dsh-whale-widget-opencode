@@ -1,7 +1,13 @@
 # ============================================================================
-# dsh-whale-widget-opencode —— DSH bundle patch (OpenCode Go edition)
+# dsh-whale-widget-opencode —— DSH bundle patch（OpenCode Go 版）
 # ============================================================================
-# 基于 dsh-whale-widget，增加 OpenCode Go 套餐用量显示。
+# 基于 dsh-whale-widget（MeteorNOX/DeepSeek-Balance-Whale-Widget，MIT）二次开发，
+# 在其 v0.3.0 多厂商架构上增加 OpenCode Go 订阅额度（5h / 周 / 月三窗口）显示。
+#
+# 安装方式（不再需要手工复制/手工改 profile patch）：
+#   dsh plugin --profile web add github:ELFsay/dsh-whale-widget-opencode
+# 或本地开发安装：
+#   dsh plugin --profile web add link:<本目录绝对路径>
 # ============================================================================
 
 - insert:
